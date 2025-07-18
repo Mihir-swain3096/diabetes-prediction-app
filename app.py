@@ -25,14 +25,14 @@ st.title("Diabetes Prediction App")
 st.write("Enter details below to check diabetes prediction.")
 
 #Input Details
-Pregnancies=st.number_input("Pregnancies",min_value=0.0)
-Glucose=st.number_input("Glucose",min_value=0.0)
-BloodPressure=st.number_input("BloodPressure",min_value=0.0)
-SkinThickness=st.number_input("SkinThickness",min_value=0.0)
-Insulin=st.number_input("Insulin",min_value=0.0)
-BMI=st.number_input("BMI",min_value=0.0)
-DiabetesPedigreeFunction=st.number_input("DPF",min_value=0.0)
-Age= st.number_input("Age",min_value=0.0)
+Pregnancies=st.number_input("Pregnancies",min_value=0.0,step=1.0,placeholder="Enter Number")
+Glucose=st.number_input("Glucose",min_value=0.0, step=1.0,placeholder="Enter Number")
+BloodPressure=st.number_input("BloodPressure",min_value=0.0, step=1.0,placeholder="Enter Number")
+SkinThickness=st.number_input("SkinThickness",min_value=0.0, step=1.0,placeholder="Enter Number")
+Insulin=st.number_input("Insulin",min_value=0.0, step=1.0,placeholder="Enter Number")
+BMI=st.number_input("BMI",min_value=0.0, step=1.0,placeholder="Enter Number")
+DiabetesPedigreeFunction=st.number_input("DPF",min_value=0.0, step=1.0,placeholder="Enter Number")
+Age= st.number_input("Age",min_value=0.0, step=1.0,placeholder="Enter Number")
 
 #Predict Button
 if st.button("Predict"):
