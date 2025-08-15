@@ -1,13 +1,31 @@
-# Diabetes Prediction App
-A Streamlit-based machine learning app to predict diabetes likelihood.
+# 🩺 Diabetes Prediction App
 
-## Features
-- Background image
-- Sidebar with app info
-- Placeholders & help text for better UI
-- Uses trained ML model (`diabetes.pkl`)
+A Machine Learning powered web application built with **Python**, **Scikit-learn**, and **Streamlit** that predicts the likelihood of a person having diabetes based on medical parameters.
 
-## How to run locally
-pip install -r requirements.txt
+🔗 **Live Demo:** https://diabetes-prediction-app-mgoyttkx5z22wy8rvvsflq.streamlit.app/
 
-streamlit run app.py
+---
+
+## 📌 Features
+- Simple and interactive web interface
+- User-friendly input fields for medical parameters
+- Instant diabetes prediction
+- Informative sidebar with app details and diabetes awareness
+- Hosted online using Streamlit Cloud
+
+---
+
+## 🛠️ Tech Stack
+- **Python**
+- **Streamlit**
+- **Scikit-learn**
+- **Pickle** (for model saving/loading)
+
+---
+
+## 📂 Project Structure
+📦 diabetes-prediction-app
+┣ 📜 app.py # Main Streamlit app code
+┣ 📜 diabetes.pkl # Trained ML model
+┣ 📜 requirements.txt # Python dependencies
+┗ 📜 README.md # Project documentation
