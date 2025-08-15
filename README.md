@@ -9,4 +9,5 @@ A Streamlit-based machine learning app to predict diabetes likelihood.
 
 ## How to run locally
 pip install -r requirements.txt
+
 streamlit run app.py
